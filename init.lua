@@ -107,8 +107,8 @@ vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv") -- move line up(v)
 vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv") -- move line down(v)
 
 -- Move UP and DOWN and center
-vim.keymap.set("n", "<C-d>", "<C-d>zz", { desc = "move down in buffer with cursor centered" })
-vim.keymap.set("n", "<C-u>", "<C-u>zz", { desc = "move up in buffer with cursor centered" })
+-- vim.keymap.set("n", "<C-d>", "<C-d>zz", { desc = "move down in buffer with cursor centered" })
+-- vim.keymap.set("n", "<C-u>", "<C-u>zz", { desc = "move up in buffer with cursor centered" })
 
 -- Next and Prev search is centered
 vim.keymap.set("n", "n", "nzzzv")
